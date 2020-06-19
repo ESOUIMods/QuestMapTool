@@ -1,0 +1,9 @@
+<Bindings>
+	<Layer name="SI_KEYBINDINGS_CATEGORY_GENERAL">
+		<Category name="QUESTMAPTOOL_BINDING_CATEGORY_TITLE">
+			<Action name="QUESTMAPTOOL_BINDING_STRING_1">
+				<Down>QuestMapTool.getSubzone()</Down>
+			</Action>
+		</Category>
+	</Layer>
+</Bindings>
