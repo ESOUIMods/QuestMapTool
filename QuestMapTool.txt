@@ -1,15 +1,14 @@
-## Title: QuestMap Tool |c555555v1.1|r
-## Version: 1.1
-## Author: |c70C0DECaptainBlagbird|r
-## APIVersion: 100025
+## Title: QuestMap Tool v1.2
+## Version: 1.2
+## Author: CaptainBlagbird and Sharlikran
+## APIVersion: 100031
 ## Description: Adds tools for QuestMap development.
+## OptionalDependsOn: LibDebugLogger>=196 DebugLogViewer
 ## SavedVariables: QuestMapToolSavedVars
 
 lang/Strings.lua
 res/Bindings.xml
 QuestMapTool.lua
-
-
 
 ; This Add-on is not created by, affiliated with or sponsored by ZeniMax
 ; Media Inc. or its affiliates. The Elder Scrolls® and related logos are
