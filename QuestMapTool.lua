@@ -101,7 +101,7 @@ function QuestMapTool.getSubzone()
     zone = GetZoneAndSubzone()
     -- Check if we started at the correct map level
     if zone:find("tamriel/") == 1 or zone:find("skyrim/blackreachworld") == 1 then
-        p("Press the key after clicking on the subzone, not before")
+        dm("Press the key after clicking on the subzone, not before")
         return
     end
     -- Zoom back in to subzone
