@@ -9,8 +9,10 @@ https://github.com/CaptainBlagbird
 -- Add-on info
 QuestMapTool = {}
 QuestMapTool.name = "QuestMapTool"
-local logger = LibDebugLogger.Create(QuestMapTool.name)
-QuestMapTool.logger = logger
+if LibDebugLogger then
+    local logger = LibDebugLogger.Create(QuestMapTool.name)
+    QuestMapTool.logger = logger
+end
 local SDLV = DebugLogViewer
 
 local function create_log(log_type, log_content)
