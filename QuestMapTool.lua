@@ -145,6 +145,8 @@ function QuestMapTool.getSubzone()
   -- Set waypoint to 100,0
   PingMap(MAP_PIN_TYPE_PLAYER_WAYPOINT, MAP_TYPE_LOCATION_CENTERED, 1, 0)
   dm("Setting player waypoint")
+  local mapId = GetCurrentMapId()
+  dm(mapId)
   -- Zoom out to main zone
   ZO_WorldMap_MouseUp(nil, 2, true)
   dm(GetZoneAndSubzone())
