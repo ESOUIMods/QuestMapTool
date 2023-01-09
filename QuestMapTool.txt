@@ -1,7 +1,7 @@
 ## Title: QuestMap Tool v1.2
 ## Version: 1.2
 ## Author: CaptainBlagbird and Sharlikran
-## APIVersion: 101033 101034
+## APIVersion: 101035 101036
 ## Description: Adds tools for QuestMap development.
 ## OptionalDependsOn: LibDebugLogger>=196 DebugLogViewer
 ## SavedVariables: QuestMapToolSavedVars
